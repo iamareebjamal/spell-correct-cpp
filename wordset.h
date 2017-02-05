@@ -41,7 +41,7 @@ public:
      * Takes a filename of dictionary and inserts all words from it in
      * the unordered set which is practically a hash set.
      */
-    wordset(const string& filename);
+    explicit wordset(const string& filename);
 
     /*
      * Checks if the word passed as argument exists in the word set.
